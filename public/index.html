@@ -670,7 +670,7 @@ tr:hover td { background: rgba(255,255,255,0.025); }
   <!-- Hero -->
   <section class="landing-hero">
     <div>
-      <div class="hero-eyebrow">🚀 Built for small business owners</div>
+      <div class="hero-eyebrow"> Built for small business owners</div>
       <h1 class="hero-title">Track Credit &amp; Debt<br/><span>Like a Pro</span></h1>
       <p class="hero-sub">
         Stop losing money to forgotten debts. Duka Ledger gives every duka owner
@@ -711,27 +711,27 @@ tr:hover td { background: rgba(255,255,255,0.025); }
         <p class="feature-desc">Track credit for each customer with full history. Know exactly who owes what and since when.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">💰</div>
+        <div class="feature-icon"></div>
         <h3 class="feature-title">Payment Tracking</h3>
         <p class="feature-desc">Record payments instantly. Credits are automatically settled oldest-first so the balance is always accurate.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">📊</div>
+        <div class="feature-icon"></div>
         <h3 class="feature-title">Daily &amp; Monthly Reports</h3>
         <p class="feature-desc">See how much credit was issued, how much collected, and your net movement — per day or per month.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">📄</div>
+        <div class="feature-icon"></div>
         <h3 class="feature-title">Customer Statements</h3>
         <p class="feature-desc">Generate a full transaction statement for any customer with opening balance, credits, payments, and closing balance.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">📥</div>
+        <div class="feature-icon"></div>
         <h3 class="feature-title">CSV Export</h3>
         <p class="feature-desc">Export customers, credits, or payments to CSV for Excel or your accountant at any time.</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">🔒</div>
+        <div class="feature-icon"></div>
         <h3 class="feature-title">Private &amp; Secure</h3>
         <p class="feature-desc">Your data is completely isolated from other business owners. No one else can see your records.</p>
       </div>
@@ -748,7 +748,7 @@ tr:hover td { background: rgba(255,255,255,0.025); }
   </section>
 
   <footer class="landing-footer">
-    © 2024 Duka Ledger. Built with ❤️ for small business owners.
+    © 2024 Duka Ledger. Built with  for small business owners.
   </footer>
 </div>
 
@@ -758,7 +758,7 @@ tr:hover td { background: rgba(255,255,255,0.025); }
 <div id="modal-auth" class="modal-overlay hidden">
   <div class="modal">
     <div class="landing-logo" style="margin-bottom:20px;justify-content:center">
-      <div class="landing-logo-icon">📒</div>
+      <div class="landing-logo-icon"></div>
       Duka Ledger
     </div>
     <div class="auth-tabs">
@@ -816,29 +816,29 @@ tr:hover td { background: rgba(255,255,255,0.025); }
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-header">
       <div class="sidebar-logo">
-        <div class="sidebar-logo-icon">📒</div>
+        <div class="sidebar-logo-icon"></div>
         Duka Ledger
       </div>
       <div class="sidebar-shop" id="sidebar-shopname">My Shop</div>
     </div>
     <nav class="sidebar-nav">
       <button class="nav-item active" data-tab="dashboard" onclick="goTab('dashboard')">
-        <span class="nav-icon">🏠</span> Dashboard
+        <span class="nav-icon"></span> Dashboard
       </button>
       <button class="nav-item" data-tab="customers" onclick="goTab('customers')">
-        <span class="nav-icon">👥</span> Customers
+        <span class="nav-icon"></span> Customers
       </button>
       <button class="nav-item" data-tab="credits" onclick="goTab('credits')">
-        <span class="nav-icon">📋</span> Credits
+        <span class="nav-icon"></span> Credits
       </button>
       <button class="nav-item" data-tab="payments" onclick="goTab('payments')">
-        <span class="nav-icon">💰</span> Payments
+        <span class="nav-icon"></span> Payments
       </button>
       <button class="nav-item" data-tab="reports" onclick="goTab('reports')">
-        <span class="nav-icon">📊</span> Reports
+        <span class="nav-icon"></span> Reports
       </button>
       <button class="nav-item" data-tab="exports" onclick="goTab('exports')">
-        <span class="nav-icon">📥</span> Export
+        <span class="nav-icon"></span> Export
       </button>
     </nav>
     <div class="sidebar-footer">
@@ -982,7 +982,7 @@ async function submitRegister(e) {
     state.user = data;
     closeAuth();
     enterApp(data);
-    toast('Welcome to Duka Ledger! 🎉', 'success');
+    toast('Welcome to Duka Ledger! ', 'success');
   } catch (err) {
     errEl.textContent = err.error || 'Registration failed';
     errEl.classList.remove('hidden');
